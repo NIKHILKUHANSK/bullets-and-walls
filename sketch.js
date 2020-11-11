@@ -34,7 +34,7 @@ wall.shapeColor=color(0,255,0);//GREEN
 hascollided(bullet,wall);
   }
   
-  function hascollided(lbullet,lwall)
+  function hascollided(lbullet,lwall);
 {
   bulletRightEdge = lbullet.x+lbullet.width;
   wallLeftEdge=lwall.x;
